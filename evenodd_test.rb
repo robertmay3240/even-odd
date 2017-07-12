@@ -23,7 +23,8 @@ def test_input_1_returns_odd
 		assert_equal("odd",evenoddfunction(934454646454643))
 	end
 	
-	def test_input_wombat_returns_no_wombats_allowed
-		assert_equal("no wombats allowed", evenofffunction("wombat"))
+	def test_input_is_strings_not_allowed
+		assert_equal("only numbers allowed", evenoddfunction("wombat"))
+	end
 
 end
