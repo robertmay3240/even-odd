@@ -1,7 +1,7 @@
 def evenoddfunction(number)
-	if number == 1
-		"odd"
-	elsif number == 2
+	if number % 2 == 0
 		"even"
+	else 
+		"odd"
 	end
 end
